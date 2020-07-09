@@ -1,15 +1,14 @@
-import * as firebase from 'firebase/app';
-import 'firebase/firestore';
+import * as firebase from "firebase/app";
+import "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBNGYwp9XI5C2jbsYZjOJc3ydVN-2g3vjI",
-    authDomain: "readlater-708be.firebaseapp.com",
-    databaseURL: "https://readlater-708be.firebaseio.com",
-    projectId: "readlater-708be",
-    storageBucket: "readlater-708be.appspot.com",
-    messagingSenderId: "264923569873",
-    appId: "1:264923569873:web:aa099d638c43334ad52ff0",
-    measurementId: "G-P51ZMMNK95"
+  apiKey: "AIzaSyCUN0LlPTRSpkkXHlSHRrZ8YxI63_wtYCE",
+  authDomain: "read-later-cdf86.firebaseapp.com",
+  databaseURL: "https://read-later-cdf86.firebaseio.com",
+  projectId: "read-later-cdf86",
+  storageBucket: "read-later-cdf86.appspot.com",
+  messagingSenderId: "672667799800",
+  appId: "1:672667799800:web:d1688455253adffd36eb0d",
 };
 
 firebase.initializeApp(firebaseConfig);
