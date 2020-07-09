@@ -1,5 +1,5 @@
 import React from 'react';
-import FaTrash from 'react-icons';
+// import {FaTrash} from 'react-icons';
 
 function BooksItem(props) {
     return (
@@ -9,7 +9,7 @@ function BooksItem(props) {
                 <p>author</p>
             </div>
             <div>
-                <FaTrash color="red" onClick={handleDelete} />
+                {/* <FaTrash color="red" onClick={handleDelete} /> */}
             </div>
         </div>
     );
